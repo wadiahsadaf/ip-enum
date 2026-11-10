@@ -9,6 +9,7 @@
 #include "search.h"
 #include "stdlib.h"
 #include "unistd.h"
+#include <cstdint>
 #include <signal.h>
 #include <iostream>
 
@@ -350,5 +351,4 @@ Prover_input Provers::std_prover_int_and_input(int argc, char *argv[], bool clau
  
   return pi;
 }
-
 
