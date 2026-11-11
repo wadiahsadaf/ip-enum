@@ -7,10 +7,10 @@ formulas(sos).
 %x * y = x * z -> y = z.
 %x * y = z * y -> x = z.
 
-x * 0 = x.          % def - rigft identity
-0 * x = x.          % def - left identity
-x' * x = 0.         % left inverse  - implied by below
-x * x' = 0.         % right inverse - implied by below
+x * 0 = x.
+0 * x = x.
+x' * x = 0.
+x * x' = 0.
 x' * (x * y) = y.   
 (y * x) * x' = y.
 
