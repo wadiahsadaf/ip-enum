@@ -1,8 +1,0 @@
-
-
-formulas(assumptions).
-
-x * y = y * x.
-
-end_of_list.
-
